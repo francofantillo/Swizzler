@@ -1,0 +1,461 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Swizzler",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Swizzler",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionObserver",
+        "printedName": "URLSessionObserver",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionObserver",
+                "printedName": "Swizzler.URLSessionObserver",
+                "usr": "c:@M@Swizzler@objc(cs)URLSessionObserver"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Swizzler@objc(cs)URLSessionObserver(cpy)shared",
+            "mangledName": "$s8Swizzler18URLSessionObserverC6sharedACvpZ",
+            "moduleName": "Swizzler",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionObserver",
+                    "printedName": "Swizzler.URLSessionObserver",
+                    "usr": "c:@M@Swizzler@objc(cs)URLSessionObserver"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Swizzler@objc(cs)URLSessionObserver(cm)shared",
+                "mangledName": "$s8Swizzler18URLSessionObserverC6sharedACvgZ",
+                "moduleName": "Swizzler",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Swizzler@objc(cs)URLSessionObserver(im)start",
+            "mangledName": "$s8Swizzler18URLSessionObserverC5startyyF",
+            "moduleName": "Swizzler",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Swizzler@objc(cs)URLSessionObserver",
+        "mangledName": "$s8Swizzler18URLSessionObserverC",
+        "moduleName": "Swizzler",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Swizzler",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionTask",
+        "printedName": "URLSessionTask",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSessionTask",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSessionTask",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/PersistanceKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 11,
+      "value": "\"logs.json\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/PersistanceKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 11,
+      "value": "\"logs.json\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 8,
+      "value": "\"Swizzler.MockTask\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 22,
+      "value": "\"y-MM-dd H:mm:ss.SSSS\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 1443,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 2642,
+      "length": 17,
+      "value": "\"Task is running\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 2716,
+      "length": 19,
+      "value": "\"Task is suspended\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 2792,
+      "length": 19,
+      "value": "\"Task is canceling\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 2868,
+      "length": 21,
+      "value": "\"Task is completed\n\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 3439,
+      "length": 15,
+      "value": "\"Unknown state\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3687,
+      "length": 5,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 3753,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "StringLiteral",
+      "offset": 3816,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3905,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3945,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/LogObserver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3951,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
+      "length": 47,
+      "value": "\"Could not create URL for specified directory!\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1936,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2889,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 2991,
+      "length": 42,
+      "value": "\"File at path \""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3016,
+      "length": 4,
+      "value": "\" does not exist!\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3436,
+      "length": 25,
+      "value": "\"No data at \""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 3459,
+      "length": 1,
+      "value": "\"!\""
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "Array",
+      "offset": 3756,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4180,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/francofantillo\/Desktop\/Swizzler\/Swizzler\/Persistance\/DocumentStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4707,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

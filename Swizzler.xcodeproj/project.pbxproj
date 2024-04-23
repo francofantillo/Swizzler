@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA00D6002BD7409D004B13B5 /* Swizzler.docc in Sources */ = {isa = PBXBuildFile; fileRef = BA00D5FF2BD7409D004B13B5 /* Swizzler.docc */; };
+		BA00D6062BD7409D004B13B5 /* Swizzler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA00D5FB2BD7409D004B13B5 /* Swizzler.framework */; };
+		BA00D60B2BD7409D004B13B5 /* SwizzlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00D60A2BD7409D004B13B5 /* SwizzlerTests.swift */; };
+		BA00D60C2BD7409D004B13B5 /* Swizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = BA00D5FE2BD7409D004B13B5 /* Swizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA00D6182BD7411D004B13B5 /* RSSwizzleSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00D6152BD74102004B13B5 /* RSSwizzleSource.m */; };
+		BA00D6192BD74129004B13B5 /* RSSwizzleSource.h in Headers */ = {isa = PBXBuildFile; fileRef = BA00D6172BD7410C004B13B5 /* RSSwizzleSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA00D61D2BD7416F004B13B5 /* RSSwizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00D61A2BD7416E004B13B5 /* RSSwizzleTests.m */; };
+		BA00D61E2BD7416F004B13B5 /* RSTestsLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BA00D61B2BD7416E004B13B5 /* RSTestsLog.m */; };
+		BA00D6282BD7420A004B13B5 /* LogObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00D61F2BD7420A004B13B5 /* LogObserver.swift */; };
+		BA00D6292BD7420A004B13B5 /* LogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00D6212BD7420A004B13B5 /* LogItem.swift */; };
+		BA00D62B2BD7420A004B13B5 /* URLSessionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00D6242BD7420A004B13B5 /* URLSessionObserver.swift */; };
+		BA00D62C2BD7420A004B13B5 /* PersistanceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00D6262BD7420A004B13B5 /* PersistanceKeys.swift */; };
+		BA00D62D2BD7420A004B13B5 /* DocumentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00D6272BD7420A004B13B5 /* DocumentStorage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA00D6072BD7409D004B13B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA00D5F22BD7409D004B13B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA00D5FA2BD7409D004B13B5;
+			remoteInfo = Swizzler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA00D5FB2BD7409D004B13B5 /* Swizzler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swizzler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA00D5FE2BD7409D004B13B5 /* Swizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swizzler.h; sourceTree = "<group>"; };
+		BA00D5FF2BD7409D004B13B5 /* Swizzler.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Swizzler.docc; sourceTree = "<group>"; };
+		BA00D6052BD7409D004B13B5 /* SwizzlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwizzlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA00D60A2BD7409D004B13B5 /* SwizzlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwizzlerTests.swift; sourceTree = "<group>"; };
+		BA00D6152BD74102004B13B5 /* RSSwizzleSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSwizzleSource.m; sourceTree = "<group>"; };
+		BA00D6172BD7410C004B13B5 /* RSSwizzleSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSwizzleSource.h; sourceTree = "<group>"; };
+		BA00D61A2BD7416E004B13B5 /* RSSwizzleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSwizzleTests.m; sourceTree = "<group>"; };
+		BA00D61B2BD7416E004B13B5 /* RSTestsLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTestsLog.m; sourceTree = "<group>"; };
+		BA00D61C2BD7416E004B13B5 /* RSTestsLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTestsLog.h; sourceTree = "<group>"; };
+		BA00D61F2BD7420A004B13B5 /* LogObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogObserver.swift; sourceTree = "<group>"; };
+		BA00D6212BD7420A004B13B5 /* LogItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogItem.swift; sourceTree = "<group>"; };
+		BA00D6242BD7420A004B13B5 /* URLSessionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionObserver.swift; sourceTree = "<group>"; };
+		BA00D6262BD7420A004B13B5 /* PersistanceKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistanceKeys.swift; sourceTree = "<group>"; };
+		BA00D6272BD7420A004B13B5 /* DocumentStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentStorage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA00D5F82BD7409D004B13B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00D6022BD7409D004B13B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00D6062BD7409D004B13B5 /* Swizzler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA00D5F12BD7409D004B13B5 = {
+			isa = PBXGroup;
+			children = (
+				BA00D5FD2BD7409D004B13B5 /* Swizzler */,
+				BA00D6092BD7409D004B13B5 /* SwizzlerTests */,
+				BA00D5FC2BD7409D004B13B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA00D5FC2BD7409D004B13B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA00D5FB2BD7409D004B13B5 /* Swizzler.framework */,
+				BA00D6052BD7409D004B13B5 /* SwizzlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA00D5FD2BD7409D004B13B5 /* Swizzler */ = {
+			isa = PBXGroup;
+			children = (
+				BA00D61F2BD7420A004B13B5 /* LogObserver.swift */,
+				BA00D6202BD7420A004B13B5 /* Models */,
+				BA00D6252BD7420A004B13B5 /* Persistance */,
+				BA00D6232BD7420A004B13B5 /* Swizzling */,
+				BA00D6172BD7410C004B13B5 /* RSSwizzleSource.h */,
+				BA00D6152BD74102004B13B5 /* RSSwizzleSource.m */,
+				BA00D5FE2BD7409D004B13B5 /* Swizzler.h */,
+				BA00D5FF2BD7409D004B13B5 /* Swizzler.docc */,
+			);
+			path = Swizzler;
+			sourceTree = "<group>";
+		};
+		BA00D6092BD7409D004B13B5 /* SwizzlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA00D60A2BD7409D004B13B5 /* SwizzlerTests.swift */,
+				BA00D61A2BD7416E004B13B5 /* RSSwizzleTests.m */,
+				BA00D61C2BD7416E004B13B5 /* RSTestsLog.h */,
+				BA00D61B2BD7416E004B13B5 /* RSTestsLog.m */,
+			);
+			path = SwizzlerTests;
+			sourceTree = "<group>";
+		};
+		BA00D6202BD7420A004B13B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA00D6212BD7420A004B13B5 /* LogItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA00D6232BD7420A004B13B5 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				BA00D6242BD7420A004B13B5 /* URLSessionObserver.swift */,
+			);
+			path = Swizzling;
+			sourceTree = "<group>";
+		};
+		BA00D6252BD7420A004B13B5 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				BA00D6262BD7420A004B13B5 /* PersistanceKeys.swift */,
+				BA00D6272BD7420A004B13B5 /* DocumentStorage.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA00D5F62BD7409D004B13B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00D60C2BD7409D004B13B5 /* Swizzler.h in Headers */,
+				BA00D6192BD74129004B13B5 /* RSSwizzleSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA00D5FA2BD7409D004B13B5 /* Swizzler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA00D60F2BD7409D004B13B5 /* Build configuration list for PBXNativeTarget "Swizzler" */;
+			buildPhases = (
+				BA00D5F62BD7409D004B13B5 /* Headers */,
+				BA00D5F72BD7409D004B13B5 /* Sources */,
+				BA00D5F82BD7409D004B13B5 /* Frameworks */,
+				BA00D5F92BD7409D004B13B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swizzler;
+			productName = Swizzler;
+			productReference = BA00D5FB2BD7409D004B13B5 /* Swizzler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA00D6042BD7409D004B13B5 /* SwizzlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA00D6122BD7409D004B13B5 /* Build configuration list for PBXNativeTarget "SwizzlerTests" */;
+			buildPhases = (
+				BA00D6012BD7409D004B13B5 /* Sources */,
+				BA00D6022BD7409D004B13B5 /* Frameworks */,
+				BA00D6032BD7409D004B13B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA00D6082BD7409D004B13B5 /* PBXTargetDependency */,
+			);
+			name = SwizzlerTests;
+			productName = SwizzlerTests;
+			productReference = BA00D6052BD7409D004B13B5 /* SwizzlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA00D5F22BD7409D004B13B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BA00D5FA2BD7409D004B13B5 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					BA00D6042BD7409D004B13B5 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = BA00D5F52BD7409D004B13B5 /* Build configuration list for PBXProject "Swizzler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA00D5F12BD7409D004B13B5;
+			productRefGroup = BA00D5FC2BD7409D004B13B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA00D5FA2BD7409D004B13B5 /* Swizzler */,
+				BA00D6042BD7409D004B13B5 /* SwizzlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA00D5F92BD7409D004B13B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00D6032BD7409D004B13B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA00D5F72BD7409D004B13B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00D6182BD7411D004B13B5 /* RSSwizzleSource.m in Sources */,
+				BA00D62C2BD7420A004B13B5 /* PersistanceKeys.swift in Sources */,
+				BA00D6292BD7420A004B13B5 /* LogItem.swift in Sources */,
+				BA00D6002BD7409D004B13B5 /* Swizzler.docc in Sources */,
+				BA00D62B2BD7420A004B13B5 /* URLSessionObserver.swift in Sources */,
+				BA00D6282BD7420A004B13B5 /* LogObserver.swift in Sources */,
+				BA00D62D2BD7420A004B13B5 /* DocumentStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA00D6012BD7409D004B13B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00D60B2BD7409D004B13B5 /* SwizzlerTests.swift in Sources */,
+				BA00D61D2BD7416F004B13B5 /* RSSwizzleTests.m in Sources */,
+				BA00D61E2BD7416F004B13B5 /* RSTestsLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA00D6082BD7409D004B13B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA00D5FA2BD7409D004B13B5 /* Swizzler */;
+			targetProxy = BA00D6072BD7409D004B13B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA00D60D2BD7409D004B13B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA00D60E2BD7409D004B13B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA00D6102BD7409D004B13B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2KLC5XX3QG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftech.Swizzler;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA00D6112BD7409D004B13B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2KLC5XX3QG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftech.Swizzler;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA00D6132BD7409D004B13B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KLC5XX3QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftech.SwizzlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA00D6142BD7409D004B13B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KLC5XX3QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swiftech.SwizzlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA00D5F52BD7409D004B13B5 /* Build configuration list for PBXProject "Swizzler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00D60D2BD7409D004B13B5 /* Debug */,
+				BA00D60E2BD7409D004B13B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA00D60F2BD7409D004B13B5 /* Build configuration list for PBXNativeTarget "Swizzler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00D6102BD7409D004B13B5 /* Debug */,
+				BA00D6112BD7409D004B13B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA00D6122BD7409D004B13B5 /* Build configuration list for PBXNativeTarget "SwizzlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA00D6132BD7409D004B13B5 /* Debug */,
+				BA00D6142BD7409D004B13B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA00D5F22BD7409D004B13B5 /* Project object */;
+}
