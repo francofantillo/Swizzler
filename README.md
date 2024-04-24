@@ -49,20 +49,21 @@ You can generate the framework using the above commands or use the framework alr
 5. For swift:
 
 Add the following import
-
+```
 import Swizzler
-
+```
 Add the following code to didfinishlaunching method
-
+```
 URLSessionObserver.shared.start()
-
+```
 6. For Objective-C
 
 Add the following import:
-
+```
 #import <Swizzler/Swizzler.h>
-
+```
 Add the following code to didfinishlaunching method
-
+```
 URLSessionObserver *observer = [URLSessionObserver shared];
 [observer start];
+```
