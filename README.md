@@ -4,7 +4,35 @@
 
 This is a framework used for documenting HTTP traffic.  Every time a request is made it will print it to the console, and also log it in a JSON file in the devices documents folder.
 
-If you'd like to regenerate the xcframework follow the steps below. To simply had the existing xcframeowrk in this repo, jump to the "Adding Framework to a Project" section.
+## Adding Framework To a Project:
+
+You can generate the framework using the above commands or use the framework already generated included with this prject in the build folder.
+
+1. Go to the general tab of you xcodeproj file.
+2. Select your target
+3. Drag and drop the xcframework from the build file.
+4. Open your app delegate file in your project.
+5. For swift:
+
+Add the following import
+```
+import Swizzler
+```
+Add the following code to didfinishlaunching method
+```
+URLSessionObserver.shared.start()
+```
+6. For Objective-C
+
+Add the following import:
+```
+#import <Swizzler/Swizzler.h>
+```
+Add the following code to didfinishlaunching method
+```
+URLSessionObserver *observer = [URLSessionObserver shared];
+[observer start];
+```
 
 ## Commands For Generating XC Framework:
 
@@ -39,33 +67,3 @@ xcodebuild -create-xcframework \
 -framework './build/Swizzler.framework-iphoneos.xcarchive/Products/Library/Frameworks/Swizzler.framework' \
 -framework './build/Swizzler.framework-catalyst.xcarchive/Products/Library/Frameworks/Swizzler.framework' \
 -output './build/Swizzler.xcframework'
-
-## Adding Framework To a Project:
-
-You can generate the framework using the above commands or use the framework already generated included with this prject in the build folder.
-
-1. Go to the general tab of you xcodeproj file.
-2. Select your target
-3. Drag and drop the xcframework from the build file.
-4. Open your app delegate file in your project.
-5. For swift:
-
-Add the following import
-```
-import Swizzler
-```
-Add the following code to didfinishlaunching method
-```
-URLSessionObserver.shared.start()
-```
-6. For Objective-C
-
-Add the following import:
-```
-#import <Swizzler/Swizzler.h>
-```
-Add the following code to didfinishlaunching method
-```
-URLSessionObserver *observer = [URLSessionObserver shared];
-[observer start];
-```
