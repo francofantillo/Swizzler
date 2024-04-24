@@ -4,7 +4,7 @@
 
 This is a framework used for documenting HTTP traffic.  Every time a request is made it will print it to the console, and also log it in a JSON file in the devices documents folder.
 
-If you'd like to regenerate the xcframework follow the steps below. To simply had the existing cxframeowrk in this repo, jump to the "Adding Framework to a Project" section.
+If you'd like to regenerate the xcframework follow the steps below. To simply had the existing xcframeowrk in this repo, jump to the "Adding Framework to a Project" section.
 
 ## Commands For Generating XC Framework:
 
